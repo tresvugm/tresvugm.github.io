@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum - Teknologi Rekayasa Elektro</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <style>
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #f8f9fa; 
+            margin: 0;
+        }
+        .hero-section { 
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); 
+            color: white; 
+            padding: 80px 0; 
+        }
+        .card { 
+            border: none; 
+            transition: transform 0.3s; 
+            border-radius: 12px; 
+        }
+        .card:hover { 
+            transform: translateY(-10px); 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+        }
+        .btn-primary { 
+            background-color: #1e3a8a; 
+            border: none; 
+        }
+        .dropdown-item:hover {
+            background-color: #eff6ff;
+            color: #1e3a8a;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top" style="border-bottom: 3px solid #1e3a8a;">
+        <div class="container">
+            <a class="navbar-brand" href="https://tresvugm.github.io/">
+                <img src="images/Logo TRE Banner (Colour).png" alt="Logo TRE UGM" height="45" class="d-inline-block align-text-top">
+            </a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarUtama">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarUtama">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="https://tresvugm.github.io/">Kembali ke Beranda</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Praktikum</h1>
+            <p class="lead">Layanan Modul Praktikum dan Inventaris Laboratorium TRE</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row g-4 justify-content-center">
+            
+            <div class="col-md-5">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center p-5 d-flex flex-column">
+                        <i class="bi bi-file-earmark-text mb-3" style="font-size: 3rem; color: #1e3a8a;"></i>
+                        <h3 class="card-title h4 fw-bold">Modul Praktikum</h3>
+                        <p class="card-text text-muted mb-4">Akses modul praktikum untuk mahasiswa Teknologi Rekayasa Elektro.</p>
+                        <a href="https://tresvugm.github.io/Modul-Praktikum-TRE/" class="btn btn-primary w-100 mt-auto py-2">Buka Modul Praktikum</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center p-5 d-flex flex-column">
+                        <i class="bi bi-box-seam mb-3" style="font-size: 3rem; color: #1e3a8a;"></i>
+                        <h3 class="card-title h4 fw-bold">Inventaris Laboratorium</h3>
+                        <p class="card-text text-muted mb-4">Akses data inventaris peralatan dan komponen di seluruh laboratorium TRE.</p>
+                        <a href="https://tresvugm.github.io/Inventaris-Laboratorium-TRE/" class="btn btn-primary w-100 mt-auto py-2">Buka Inventaris Lab</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="text-center py-4 text-muted border-top mt-5">
+        <p>&copy; 2026 Teknologi Rekayasa Elektro</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
